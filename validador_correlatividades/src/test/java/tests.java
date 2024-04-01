@@ -1,5 +1,3 @@
-package domain;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -51,5 +49,4 @@ public class tests {
         //os no tiene conflictos, algoritmos tampoco (por no tener correlativas). Deberia aprobar
         Assert.assertTrue(inscripcion.Aprobada());
     }
-
 }
